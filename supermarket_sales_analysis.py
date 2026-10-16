@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "supermarket_sales.csv"
+DATA_PATH = ROOT / "supermarket_sales.txt"
 OUTPUT_DIR = ROOT / "outputs" / "figures"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
